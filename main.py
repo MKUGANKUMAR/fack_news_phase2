@@ -84,6 +84,7 @@ label_date_hist = px.histogram(
 )
 label_date_hist.show()
 
+
 real_sub_hist = px.histogram(
     data_frame = df[df.Label == "Real"],
     x = 'date',
